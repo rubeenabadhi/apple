@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    font-family:  "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.head{
+    width: auto;
+    height: 30px;
+    position: sticky;
+    background-color: rgba(247, 246, 244, 0.79);
+    box-shadow: 0 2px 5px rgba(8, 8, 8, 0.1);
+    z-index: 1000;
+    top: 0;
+    
+}
+.nav-list{
+    margin-left: 15%;
+    margin-top: 1px;
+    
+    
+}
+li,button,a{
+    cursor: pointer;
+}
+.nav-list li{
+    display: inline;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(39, 38, 38);
+    font-size: 12px;
+    margin-top: 1px;
+    padding-left: 40px;
+    
+    
+}
+
+.section1{
+    height: 50%;
+    width: auto;
+    row-gap: 1px;
+    margin-bottom: 18px;
+    
+}
+.content{
+    height: 600px;
+    width: auto;
+    text-align: center;
+    row-gap: 1px;
+}
+.product-name h2{
+    font-family:  "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 40px;
+    font-size: 58px;
+    
+}
+.product-name img{ 
+    padding-top: 50px;
+    height: 90px;
+}
+.product-image img{
+    width:800px;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+#img2{
+    margin-top: 0px;
+    width: 800px;
+    height:290px ;
+}
+#gradient{
+    background: linear-gradient(90deg, #024a92, #9941ec, #f6067e, #e56205);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 23px;
+    
+}
+
+ 
+.subhead{
+    font-size: 29px;
+    font-weight: 90;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    
+}
+#pic1{
+    
+    background-color: rgb(245, 240, 240);
+}
+#pic2{
+    
+    background-color: rgb(245, 240, 240);
+}
+
+.learn-more-btn{
+    background-color: rgb(0, 113, 227);
+    height: 39px;
+    width: 125px;
+    border-radius: 30px;
+    border: 0px;
+    margin-right:40px;
+    color: white;
+    font-size: medium;
+    
+    
+}
+.buy-btn{
+    height: 39px;
+    width: 80px;
+    white-space: 10px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: rgb(0, 113, 227);
+    color: rgb(0, 113, 227);
+}
+#tv-container{
+    position: relative;
+    text-align: center;
+}
+#apple-tv-img{
+    margin-top: 19px;
+    width: 1510px;
+    height: 600px;
+    
+}
+#auther{
+    position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.stream-btn{
+    position: absolute;
+    top:70%;
+    left: 50%;
+    background-color: rgb(244, 246, 247);
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border-color: rgb(6, 6, 6);
+    border-width: 3px;
+    color: black;
+    font-size: 19px;
+}
+.content2{
+    width: 49%;
+    height: 600px;
+    float: left;
+    background-color: rgb(245, 244, 243);
+    margin-left: 12px;
+    margin-top: 12px;
+    
+    
+    
+}
+.content2 p{
+    text-align: center;
+    position: relative;
+    padding-top: 450px;
+    font-size: 20px;
+}
+#content-img1{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+#content2-details{
+    margin-top: 0px;
+    height: 200px;
+    background-image: linear-gradient(rgb(183, 245, 251), rgb(212, 241, 241));
+    
+    
+}
+#mac-book-img{
+    position: relative;
+    width: 740px;
+    height: 300px;
+    margin-top: 0px;
+}
+#content2-details h2{
+    padding-left: 250px;
+    padding-top: 50px;
+    font-size: 50px;
+    
+}
+#content2-details p,h2{
+    line-height: 0;
+}
+#content2-details p{
+    margin-left: 20px;
+    padding-top: 0.1px;
+    line-height: 20px;
+}
+#ipad-img{
+    margin-left: 7%;
+    width: 600px;
+    height: 300px;
+}
+#content2-details2{
+    
+    color: white;
+    margin-top: 0px;
+    height: 700px;
+    
+}
+#content2-details2 h2{
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 50px;
+    
+}
+#content2-details2 p,h2{
+    line-height: 0;
+}
+#content2-details2 p{
+    padding-top: 0.1px;
+    line-height: 20px;
+
+}
+body {
+    overflow-x: hidden;
+  }
+  
+.slider-container {
+
+    padding: 20px;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+  
+.slider {
+    margin-left: 150px;
+    display: flex;
+    animation: slide 10s infinite;
+    width: 300%; /* or auto, based on slide count */
+}
+  
+.slide {
+    flex: 0 0 100vw;
+    height: 100vh;
+    position: relative;
+}
+  
+.slide img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(0); }
+    34% { transform: translateX(-100vw); }
+    66% { transform: translateX(-100vw); }
+    67% { transform: translateX(-200vw); }
+    100% { transform: translateX(-200vw); }
+  }
+.slider-stream-btn{
+    position: absolute;
+    top:80%;
+    left: 10%;
+    background-color: rgb(244, 246, 247);
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border-color: rgb(6, 6, 6);
+    border-width: 3px;
+    color: black;
+    font-size: 19px;
+}
+.card-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    scroll-behavior: smooth;
+    height: 240px;
+  }
+  
+  .card-gallery::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+  
+  .card {
+    border-radius: 10px;
+    background: #f1f1f1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+  .footer{
+    background-color: rgb(236, 236, 245);
+    height: auto;
+    width: 100%;
+    overflow: auto;
+    margin-top: 30px;
+  }
+.foot-content {
+    margin-left: 200px;
+    margin-right: 200px;
+    
+
+}
+.foot-note{
+    color: rgb(87, 87, 87);
+    font-size: 11px;
+    padding-top: 20px;
+    line-height: 10px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+}
+.footnote-SA{
+    line-height:15px ;
+    color: rgb(87, 87, 87);
+    font-size: 11px;
+    padding-top: 20px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    cursor: auto;
+}
+a{
+    color: rgb(59, 58, 59);
+}
+.foot-list{ 
+    float: left;
+    width: 185px;
+    padding-bottom: 1rem;
+}
+.footlist-head{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+    font-size: 11px;
+    padding-top: 20px;
+    line-height: 10px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    cursor:Text;
+    
+}
+.foot-bottom{
+    margin-left: 36px;
+    width: 1000px;
+    height: auto;
+    float:left;
+    font-size: 12px;
+    
+}
+.foot-bottom p a{
+    color: #1a5cf8;
+    border: none;
+    padding: 0%;
+}
+.foot-bottom a{
+    font-size: 13;
+    padding-left: 19px;
+    text-decoration: none;  
+   column-rule: 1px solid black;
+    padding-right: 12px;
+    
+    
+}
+#u-s{
+    margin-left: 60px;
+    border: none;
+}
+  
+  
